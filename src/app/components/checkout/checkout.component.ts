@@ -36,8 +36,8 @@ Order(){
  
   var body=JSON.stringify({
     "sub_total_price": this.getSubTotal(),
-    "shipping": this.getShipping,
-    "total_price": this.getTotal,
+    "shipping": this.getShipping(),
+    "total_price": this.getTotal(),
     "the_Date":this.date(),
     "user_id": this.auth.id(),
     

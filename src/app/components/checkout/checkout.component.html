@@ -40,7 +40,7 @@
           </div>
           <div class="col-md-6 form-group">
             <label>Last Name</label>
-            <input class="form-control" type="text" placeholder="Doe" formControlName='lName' />
+            <input formControlName='lName' class="form-control" type="text" placeholder="Doe" formControlName='lName' />
             <ng-container *ngIf="placeOrder.controls['lName']?.touched">
               <span
                 class="text-danger"
